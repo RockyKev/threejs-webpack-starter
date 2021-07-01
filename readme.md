@@ -39,14 +39,19 @@ npm run build
 
 3. Open up devtools to see the console.logs!
 
-`src/index.html`: http://localhost:8080/
-`src/test/index.html`: http://localhost:8080/test
-`src/another-test/index.html`: http://localhost:8080/another-test
-`src/example1.html`: http://localhost:8080/example1.html
-`src/example2.html`: http://localhost:8080/example2.html
+* `src/index.html`: http://localhost:8080/
+
+* `src/test/index.html`: http://localhost:8080/test
+
+* `src/another-test/index.html`: http://localhost:8080/another-test
+
+* `src/example1.html`: http://localhost:8080/example1.html
+
+* `src/example2.html`: http://localhost:8080/example2.html
 
 
-## Adding new sites
+
+## Adding new pages
 
 1. Open up `bundler/webpack.common.js`
 2. Add html pages to `htmlPageNames`
